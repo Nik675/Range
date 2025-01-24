@@ -80,8 +80,10 @@ public:
     }
 
 private:
+
     T start, end, step;
     std::vector<T> values;
+
 };
 
 #endif
